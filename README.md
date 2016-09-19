@@ -18,11 +18,17 @@ Instructions
 ------------
 - clone the repository using 'git clone <reponame>'
 - cd <reponame>
-- npm insatll (to install node module dependency).
+- Install node.js(https://nodejs.org/en/download/) if you don't already have it
+- npm install (to install node module dependency).
+- Install Bower (https://coolestguidesontheplanet.com/installingbower-on-osx/)  if you dont already have it
 - bower update (to install bower dependency).
 
 Add platform
 ------------
+- Install ionic (sudo npm install -g ionic) if you dont already have it
+- Please install your Cordova CLI to version  >=4.2.0 `npm install -g cordova`
+- Install ios-sim to deploy iOS applications.`npm install -g ios-sim` (may require sudo)
+- Install ios-deploy to deploy iOS applications to devices.  `npm install -g ios-deploy` (may require sudo)
 - ionic paltform add <platform name> [android/ios]
 
 Gegrate resources
@@ -41,4 +47,3 @@ Build app
 Run the app
 -----------
 - ionic run <platform name>
-
